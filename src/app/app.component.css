@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.cont{
+    height: 900px;
+    width: 97%;
+    padding: 20px;
+
+}
+.main{
+    max-width: 775px;
+    width: 65%;
+    height: 400px;
+    /*overflow-y: auto;
+    overflow-x: hidden;*/
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.title{
+    text-align: center;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, hotpink); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, hotpink); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red,hotpink); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, hotpink); /* Standard syntax */
+    padding: 30px 0px;
+    margin-top: 0px;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.addItem{
+    position: relative;
+    padding-bottom: 0px;
+    height: 30px; 
+  
+}
+
+.addText{
+    width: 83%;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.addItem button{
+    height: 45px;
+    width: 50px;
+    background-color: orchid ;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    margin-left: 3px;
+}
+
+.task-list{
+    list-style: none;
+    font-size: 20px;
+    color: #888;
+    margin-left: -40px;
+    margin-bottom: 0px;
+}
+
+li{
+    border-bottom: 1px solid #fff;
+    background-color: whitesmoke;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    margin-right: 2.5%;
+    
+}
+li:first-child {
+    margin-top: 45px;
+}
+
+li span{
+    padding-right: 10px;
+    color:#888;
+}
+
+span{
+    cursor: pointer;
+    position: relative;
+    float: right;
+    padding-left: 3%;
+}
+
+.completed{
+    cursor: pointer;
+    padding-top: 15px;
+    color: orchid;
+}
